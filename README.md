@@ -6,7 +6,7 @@
 
 ## 用法
 - 将 test.cpp 编译为动态库，命名为xx.so (名称xx须C代码中导出函数的命名一致)
-- 将 xx.so 部署于 PyType.py 同级目录(部署位置须与 PyType.py 中的 import 指定相对位置一直，xx.so 等价于 xx.py)
+- 将 xx.so 部署于 PyType.py 同级目录(部署位置须与 PyType.py 中的 import 指定相对位置一致，xx.so 等价于 xx.py)
 - 执行 python3 PyType.py
 
 ## 内容
