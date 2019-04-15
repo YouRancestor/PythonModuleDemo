@@ -1,8 +1,8 @@
-# Python C Extention Demo
+# Python C Extension Demo
 
 ## 资料
 - [Python C API 文档](https://docs.python.org/3/contents.html)
-- Python C Extention 模板：[cpython](https://github.com/python/cpython/tree/v3.7.0)/Modules/xxmodule.c
+- Python C Extension 模板：[cpython](https://github.com/python/cpython/tree/v3.7.0)/Modules/xxmodule.c
 
 ## 用法
 - 将 test.cpp 编译为动态库，命名为xx.so (名称xx须C代码中导出函数的命名一致)
